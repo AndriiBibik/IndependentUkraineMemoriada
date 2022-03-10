@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Independent Ukraine Memoriada</string>
+
+    <string name="welcome_message">Thank You for loving and supporting Ukraine in its will to stay independent and developing country.
+        Thank You for supporting Ukrainian people in its will to stay alive.
+        Later, after we\'ll stop the aggression, welcome visiting Ukraine (if you are a foreigner)
+        All the money made from this Memoriada game I will appoint to help Ukrainian army or civilians suffered.
+        As far as possible I will try to publish confirmation of my help on the \"Google Play Apps for You\" Facebook page.
+        You can search for that page.
+    </string>
+
+    <string name="min_steps_text">Min steps:</string>
+    <string name="your_steps_count">Your steps:</string>
+    <string name="thank_you_text">Thank You!</string>
+    <string name="start_again_button_text">Again</string>
+    <string name="results_text">Results:</string>
+</resources>

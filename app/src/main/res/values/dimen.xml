@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_size">56dp</dimen>
+    <dimen name="welcome_text_size">18dp</dimen>
+    <dimen name="steps_text_size">20dp</dimen>
+    <dimen name="steps_text_margin">16dp</dimen>
+    <dimen name="before_steps_count">4dp</dimen>
+
+    <dimen name="thank_you_text_size">48dp</dimen>
+    <dimen name="thank_you_text_margin">24dp</dimen>
+    <dimen name="start_button_text_size">32dp</dimen>
+    <dimen name="start_again_bottom_margin">32dp</dimen>
+    <dimen name="results_block_height">140dp</dimen>
+    <dimen name="results_text_size">16dp</dimen>
+    <dimen name="results_block_padding">8dp</dimen>
+    <dimen name="results_title_margin_bottom">4dp</dimen>
+</resources>

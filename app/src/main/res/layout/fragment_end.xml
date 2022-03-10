@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".EndFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/end_fragment_background_image"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/thank_you_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/thank_you_text"
+            android:textSize="@dimen/thank_you_text_size"
+            android:layout_margin="@dimen/thank_you_text_margin"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"/>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/results_block_height"
+            android:background="@color/results_container_semitransparent_background"
+            android:layout_centerInParent="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/results_block_padding"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/results_text"
+                    android:textSize="@dimen/results_text_size"
+                    android:layout_marginBottom="@dimen/results_title_margin_bottom"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/actual_results"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/results_text_size"/>
+            </LinearLayout>
+        </ScrollView>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/start_again_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start_again_button_text"
+            android:textSize="@dimen/start_button_text_size"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/start_again_bottom_margin"
+            android:backgroundTint="@color/secondary_color" />
+
+    </RelativeLayout>
+</layout>
